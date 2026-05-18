@@ -9,11 +9,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit();
 }
 
-$host   = 'viaduct.proxy.rlwy.net';
+$host   = 'centerbeam.proxy.rlwy.net';
 $dbname = 'railway';
 $user   = 'root';
-$pass   = 'iAsdpkpAtVoRRypaDmlbegYPVzxaPiuf';
-$port   = 58312;
+$pass   = 'cmApvVYAkvQYQBkKITqodrfFgcHjSgnK';
+$port   = 14473;
 
 $conn = new mysqli($host, $user, $pass, $dbname, $port);
 if ($conn->connect_error) {
