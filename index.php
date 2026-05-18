@@ -162,13 +162,13 @@
 <body>
 
 <?php
-  $host   = 'viaduct.proxy.rlwy.net';
-  $dbname = 'railway';
-  $user   = 'root';
-  $pass   = 'iAsdpkpAtVoRRypaDmlbegYPVzxaPiuf';
-  $port   = 58312;
+ $host   = 'centerbeam.proxy.rlwy.net';
+$dbname = 'railway';
+$user   = 'root';
+$pass   = 'cmApvVYAkvQYQBkKITqodrfFgcHjSgnK';
+$port   = 14473;
 
-  $conn = @new mysqli($host, $user, $pass, $dbname, $port);
+$conn = new mysqli($host, $user, $pass, $dbname, $port);
   $dbOk = !$conn->connect_error;
 
   $guruCount   = 0;
